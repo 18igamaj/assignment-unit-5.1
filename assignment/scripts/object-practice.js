@@ -38,8 +38,8 @@ console.log('Hi, my name is;', fullName);
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-console.log('My first choice to eat is:',favThreeFoods[0]);
-console.log('If I cannot find anything Imma eat the leftovers:', favThreeFoods[2]);
+console.log('My first choice to eat is:',me.favThreeFoods[0]);
+console.log('If I cannot find anything, I will just grab a:', me.favThreeFoods[2]);
 //Just accessed my favorite foods array!
 
 /* 4. Change a property of an existing object.
@@ -48,7 +48,14 @@ console.log('If I cannot find anything Imma eat the leftovers:', favThreeFoods[2
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
+ console.log('This is how many shoes i own:', me.shoeCount);
+ 
+me.shoeCount = me.shoeCount + 1;
 
+ console.log('Omg I got new shoes, so now I have', me.shoeCount);
+
+// Okay, what would happen if I created a new variable for shoecount called
+//'newShoes' and equalled it to 'me.shoeCount + 1' and called that in my console
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -56,3 +63,6 @@ console.log('If I cannot find anything Imma eat the leftovers:', favThreeFoods[2
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+ 
+me.favoriteColor = 'Blue';
+console.log(me);
