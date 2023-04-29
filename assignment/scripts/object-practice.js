@@ -10,6 +10,14 @@ console.log('***** Object Practice *****')
 */
 const me = {
   // TODO - add properties here
+  //I am creating an object literal about myself
+  //Don't see why we are not making our variables into two words
+  // Wouldn't firstname also work as 'First name' in an object?
+  firstName : 'Majid',
+  lastName : 'Igale',
+  hasSiblings : true,
+  shoeCount : 5,
+  favThreeFoods : ['Shawarma', 'Chicken', 'Banana']
 };
 console.log('A little about me:', me);
 
@@ -19,6 +27,7 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
+let fullName = me.firstName + ' ' + me.lastName;
 
 
 
