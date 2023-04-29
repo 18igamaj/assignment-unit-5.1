@@ -26,17 +26,21 @@ console.log('A little about me:', me);
   - Use the firstName & lastName properties of the object you 
     created above to set its value. 
   - Console.log fullName
+  
 */
 let fullName = me.firstName + ' ' + me.lastName;
+console.log('Hi, my name is;', fullName);
 
 
+// Added a space inside my first name and lastname using plus.
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-
-
+console.log('My first choice to eat is:',favThreeFoods[0]);
+console.log('If I cannot find anything Imma eat the leftovers:', favThreeFoods[2]);
+//Just accessed my favorite foods array!
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
